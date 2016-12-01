@@ -40,6 +40,9 @@ cacheSolve <- function(x, ...) {
     slv
 }
 
+# Test matrix
 my_Matrix <- matrix(c(1, 1, 0, 1), nrow = 2, ncol = 2, byrow = TRUE)
+# Testing the code
 cacheSolve(makeCacheMatrix(my_Matrix))
+# Checking if my code is giving expected result
 solve(my_Matrix)
